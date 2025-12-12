@@ -14,7 +14,7 @@ export default function Page() {
                         className="drop-shadow-lg"
                     />
                 </div>
-                <h1 className="mb-6 text-[#00B4D8]">Xenon Consulting Ltd</h1>
+                <h2 className="mb-6 text-[#00B4D8]">Xenon Consulting Ltd</h2>
                 <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-1">
                     Transforming businesses through innovative solutions
                 </p>
