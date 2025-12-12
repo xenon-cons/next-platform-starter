@@ -23,22 +23,22 @@ export default function Page() {
             <section className="bg-[#0d1f35] rounded-lg p-8 sm:p-12">
                 <h2 className="text-2xl font-bold mb-6 text-[#00D4AA]">About Our Services</h2>
                 <p className="text-gray-300 leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                    Technology consultancy specialising in bid management, lean governance, and project delivery — with expertise in turning around struggling initiatives. Helping small firms scale up to win and deliver confidently on large corporate and government projects.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
                 </p>
             </section>
 
             <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-[#0d1f35] rounded-lg p-6 border border-[#0077B6]/30 hover:border-[#00B4D8]/50 transition-colors">
-                    <h3 className="text-lg font-semibold mb-3 text-[#00B4D8]">Strategic Consulting</h3>
-                    <p className="text-gray-400 text-sm">Expert guidance for your business transformation journey.</p>
+                    <h3 className="text-lg font-semibold mb-3 text-[#00B4D8]">Governance Advisory</h3>
+                    <p className="text-gray-400 text-sm">Helping smaller firms win big by tailoring governance across bids, design, and delivery — balancing cost, risk, and credibility.</p>
                 </div>
                 <div className="bg-[#0d1f35] rounded-lg p-6 border border-[#0077B6]/30 hover:border-[#00B4D8]/50 transition-colors">
-                    <h3 className="text-lg font-semibold mb-3 text-[#00B4D8]">Technology Solutions</h3>
-                    <p className="text-gray-400 text-sm">Cutting-edge technology implementations tailored to your needs.</p>
+                    <h3 className="text-lg font-semibold mb-3 text-[#00B4D8]">Project Turnaround</h3>
+                    <p className="text-gray-400 text-sm">Turning challenged tech projects into focused, reliable success.</p>
                 </div>
                 <div className="bg-[#0d1f35] rounded-lg p-6 border border-[#0077B6]/30 hover:border-[#00B4D8]/50 transition-colors">
-                    <h3 className="text-lg font-semibold mb-3 text-[#00B4D8]">Business Intelligence</h3>
-                    <p className="text-gray-400 text-sm">Data-driven insights to power your decision making.</p>
+                    <h3 className="text-lg font-semibold mb-3 text-[#00B4D8]">Bid Leadership</h3>
+                    <p className="text-gray-400 text-sm">Driving complex bids to success through strong governance, clear focus and customer insight.</p>
                 </div>
             </section>
         </div>
