@@ -15,12 +15,12 @@ export default function Page() {
                     />
                 </div>
                 <h1 className="mb-6 text-[#00B4D8]">Xenon Consulting Ltd</h1>
-                <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-0">
+                <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-1">
                     Transforming businesses through innovative solutions
                 </p>
             </section>
 
-            <section className="bg-[#0d1f35] rounded-lg p-8 sm:p-12">
+            <section className="bg-[#0d1f35] rounded-lg p-4 sm:p-6">
                 <h2 className="text-2xl font-bold mb-6 text-[#00D4AA]">About Our Services</h2>
                 <p className="text-gray-300 leading-relaxed">
                     We are a technology‑focused consultancy helping organisations win and deliver complex projects with confidence. Our services span bid management, ensuring proposals are credible and competitive; governance advisory, tailoring assurance frameworks that balance cost and risk; and project delivery leadership, with a particular strength in turning around struggling initiatives. We enable small firms to scale up and work effectively with large corporations and government clients by instilling lean governance, clear scope discipline, and stakeholder trust. With expertise across design, architecture, and execution, we restore momentum, rebuild confidence, and deliver outcomes that matter.
