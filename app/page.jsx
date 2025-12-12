@@ -23,7 +23,7 @@ export default function Page() {
             <section className="bg-[#0d1f35] rounded-lg p-8 sm:p-12">
                 <h2 className="text-2xl font-bold mb-6 text-[#00D4AA]">About Our Services</h2>
                 <p className="text-gray-300 leading-relaxed">
-                    Technology consultancy specialising in bid management, lean governance, and project delivery — with expertise in turning around struggling initiatives. Helping small firms scale up to win and deliver confidently on large corporate and government projects.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                    Technology consultancy specialising in bid management, lean governance, and project delivery — with expertise in turning around struggling initiatives. Helping small firms scale up to win and deliver confidently on large corporate and government projects.
                 </p>
             </section>
 
