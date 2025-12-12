@@ -10,7 +10,7 @@ const navItems = [
 
 export function Header() {
     return (
-        <nav className="flex flex-wrap items-center gap-4 pt-6 pb-12 sm:pt-12 md:pb-24">
+        <nav className="flex flex-wrap items-center gap-4 pt-6 pb-12 sm:pt-2 md:pb-4">
             <Link href="/" className="flex items-center gap-3 no-underline hover:opacity-90">
                 <Image src={xenonLogo} alt="Xenon Consulting Ltd logo" width={50} height={50} />
                 <span className="text-xl font-bold text-white hidden sm:inline">Xenon Consulting Ltd</span>
