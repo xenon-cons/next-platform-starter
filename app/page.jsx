@@ -15,7 +15,7 @@ export default function Page() {
                     />
                 </div>
                 <h1 className="mb-6 text-[#00B4D8]">Xenon Consulting Ltd</h1>
-                <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
+                <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-1">
                     Transforming businesses through innovative solutions
                 </p>
             </section>
