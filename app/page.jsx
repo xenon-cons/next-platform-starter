@@ -23,7 +23,7 @@ export default function Page() {
             <section className="bg-[#0d1f35] rounded-lg p-8 sm:p-12">
                 <h2 className="text-2xl font-bold mb-6 text-[#00D4AA]">About Our Services</h2>
                 <p className="text-gray-300 leading-relaxed">
-                    Technology consultancy specialising in bid management, lean governance, and project delivery — with expertise in turning around struggling initiatives. Helping small firms scale up to win and deliver confidently on large corporate and government projects.
+                    We are a technology‑focused consultancy helping organisations win and deliver complex projects with confidence. Our services span bid management, ensuring proposals are credible and competitive; governance advisory, tailoring assurance frameworks that balance cost and risk; and project delivery leadership, with a particular strength in turning around struggling initiatives. We enable small firms to scale up and work effectively with large corporations and government clients by instilling lean governance, clear scope discipline, and stakeholder trust. With expertise across design, architecture, and execution, we restore momentum, rebuild confidence, and deliver outcomes that matter.
                 </p>
             </section>
 
