@@ -1,63 +1,46 @@
-import Link from 'next/link';
-import { Card } from 'components/card';
-import { ContextAlert } from 'components/context-alert';
-import { Markdown } from 'components/markdown';
-import { RandomQuote } from 'components/random-quote';
-import { getNetlifyContext } from 'utils';
-
-const contextExplainer = `
-The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
-([docs](https://docs.netlify.com/configure-builds/environment-variables/#build-metadata)):
-`;
-
-const preDynamicContentExplainer = `
-The card content below is fetched by the client-side from \`/quotes/random\` (see file \`app/quotes/random/route.js\`) with a different quote shown on each page load:
-`;
-
-const ctx = getNetlifyContext();
+import Image from 'next/image';
+import xenonLogo from 'public/images/xenon-logo.png';
 
 export default function Page() {
     return (
         <div className="flex flex-col gap-12 sm:gap-16">
-            <section>
-                <ContextAlert className="mb-6" />
-                <h1 className="mb-4">Netlify Platform Starter – Next.js</h1>
-                <p className="mb-6 text-lg">
-                    Deploy the latest version of Next.js — including Turbopack, React Compiler, and the new caching APIs
-                    — on Netlify in seconds. No configuration or custom adapter required.
+            <section className="text-center py-12 sm:py-20">
+                <div className="flex justify-center mb-8">
+                    <Image
+                        src={xenonLogo}
+                        alt="Xenon Consulting Ltd logo"
+                        width={150}
+                        height={150}
+                        className="drop-shadow-lg"
+                    />
+                </div>
+                <h1 className="mb-6 text-[#00B4D8]">Xenon Consulting Ltd</h1>
+                <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
+                    Transforming businesses through innovative solutions
                 </p>
-                <Link href="https://docs.netlify.com/frameworks/next-js/overview/" className="btn btn-lg sm:min-w-64">
-                    Read the Docs
-                </Link>
             </section>
-            {!!ctx && (
-                <section className="flex flex-col gap-4">
-                    <Markdown content={contextExplainer} />
-                    <RuntimeContextCard />
-                </section>
-            )}
-            <section className="flex flex-col gap-4">
-                <Markdown content={preDynamicContentExplainer} />
-                <RandomQuote />
+
+            <section className="bg-[#0d1f35] rounded-lg p-8 sm:p-12">
+                <h2 className="text-2xl font-bold mb-6 text-[#00D4AA]">About Our Services</h2>
+                <p className="text-gray-300 leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                </p>
+            </section>
+
+            <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="bg-[#0d1f35] rounded-lg p-6 border border-[#0077B6]/30 hover:border-[#00B4D8]/50 transition-colors">
+                    <h3 className="text-lg font-semibold mb-3 text-[#00B4D8]">Strategic Consulting</h3>
+                    <p className="text-gray-400 text-sm">Expert guidance for your business transformation journey.</p>
+                </div>
+                <div className="bg-[#0d1f35] rounded-lg p-6 border border-[#0077B6]/30 hover:border-[#00B4D8]/50 transition-colors">
+                    <h3 className="text-lg font-semibold mb-3 text-[#00B4D8]">Technology Solutions</h3>
+                    <p className="text-gray-400 text-sm">Cutting-edge technology implementations tailored to your needs.</p>
+                </div>
+                <div className="bg-[#0d1f35] rounded-lg p-6 border border-[#0077B6]/30 hover:border-[#00B4D8]/50 transition-colors">
+                    <h3 className="text-lg font-semibold mb-3 text-[#00B4D8]">Business Intelligence</h3>
+                    <p className="text-gray-400 text-sm">Data-driven insights to power your decision making.</p>
+                </div>
             </section>
         </div>
     );
-}
-
-function RuntimeContextCard() {
-    const title = `Netlify Context: running in ${ctx} mode.`;
-    if (ctx === 'dev') {
-        return (
-            <Card title={title}>
-                <p>Next.js will rebuild any page you navigate to, including static pages.</p>
-            </Card>
-        );
-    } else {
-        const now = new Date().toISOString();
-        return (
-            <Card title={title}>
-                <p>This page was statically-generated at build time ({now}).</p>
-            </Card>
-        );
-    }
 }

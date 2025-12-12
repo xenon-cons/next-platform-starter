@@ -9,9 +9,16 @@
             color-mix(in oklab, var(--color-neutral-950) 100%, transparent)
         ),
         url('/images/noise.png');
-    --color-primary: #2bdcd2;
-    --color-primary-content: #171717;
-    --color-secondary: #016968;
+    /* Xenon Consulting color palette - complementary to the blue/teal logo */
+    --color-primary: #00B4D8;
+    --color-primary-content: #0a1628;
+    --color-secondary: #0077B6;
+    --color-accent: #00D4AA;
+    --color-xenon-dark: #0a1628;
+    --color-xenon-blue: #0077B6;
+    --color-xenon-cyan: #00B4D8;
+    --color-xenon-teal: #00D4AA;
+    --color-xenon-light: #CAF0F8;
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
         'Noto Color Emoji';
 }
