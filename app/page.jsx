@@ -4,7 +4,7 @@ import xenonLogo from 'public/images/xenon-logo.png';
 export default function Page() {
     return (
         <div className="flex flex-col gap-1 sm:gap-1">
-            <section className="text-center py-12 sm:py-20">
+            <section className="text-center py-2 sm:py-3">
                 <div className="flex justify-center mb-8">
                     <Image
                         src={xenonLogo}
