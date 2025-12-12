@@ -3,7 +3,7 @@ import xenonLogo from 'public/images/xenon-logo.png';
 
 export default function Page() {
     return (
-        <div className="flex flex-col gap-12 sm:gap-16">
+        <div className="flex flex-col gap-1 sm:gap-1">
             <section className="text-center py-12 sm:py-20">
                 <div className="flex justify-center mb-8">
                     <Image
@@ -15,7 +15,7 @@ export default function Page() {
                     />
                 </div>
                 <h1 className="mb-6 text-[#00B4D8]">Xenon Consulting Ltd</h1>
-                <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-1">
+                <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-0">
                     Transforming businesses through innovative solutions
                 </p>
             </section>
